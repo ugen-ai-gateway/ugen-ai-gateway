@@ -1,5 +1,6 @@
 export type Phase = 'idle' | 'sending' | 'analyzing' | 'analyzed' | 'routing' | 'generating' | 'complete' | 'failed';
 export type Provider = 'local' | 'cloud';
+export type ProviderSelection = 'auto' | Provider;
 export type ChatResult = {
   content: string;
   model: string;

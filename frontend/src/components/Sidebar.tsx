@@ -8,11 +8,13 @@ type Props = {
   onSelect: (id: string) => void;
   onDelete: (id: string) => void;
   onClearAll: () => void;
+  onClose: () => void;
 };
 
-function Sidebar({ conversations, activeId, busy, onNew, onSelect, onDelete, onClearAll }: Props) {
+function Sidebar({ conversations, activeId, busy, onNew, onSelect, onDelete, onClearAll, onClose }: Props) {
   return <aside className="sidebar">
     <a className="brand" href="#" aria-label="UGen AI Gateway 首頁"><span className="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path className="brand-gate" d="M11 27V15a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v12"/><path className="brand-route" d="M20 30v-7m0 0-7-7m7 7 7-7"/><circle className="brand-node" cx="13" cy="16" r="2.3"/><circle className="brand-node" cx="27" cy="16" r="2.3"/><circle className="brand-core" cx="20" cy="30" r="2.2"/></svg></span><span>ugen<span className="brand-dot">.</span><small>AI GATEWAY</small></span></a>
+    <button className="icon-button drawer-close" onClick={onClose} aria-label="關閉對話紀錄">×</button>
     <div className="history-label"><span>最近對話</span><span className="history-count">{conversations.length}</span>{conversations.length > 0 && <button className="text-action" onClick={onClearAll} disabled={busy}>清空</button>}</div>
     <nav className="history-list" aria-label="對話紀錄">
       {conversations.length ? conversations.map(conversation => {

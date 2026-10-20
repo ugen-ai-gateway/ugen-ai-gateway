@@ -1,8 +1,9 @@
-import type { Phase, Provider } from '../types';
+import type { Phase, Provider, ProviderSelection } from '../types';
 
 type Props = {
   phase: Phase;
   provider: Provider | null;
+  providerSelection: ProviderSelection;
   model: string;
   localModel: string;
   cloudModel: string;
@@ -20,23 +21,19 @@ function ProcessCard({ glyph, label, title, className = '' }: {
 }
 
 function FlowBranch({ provider, animated }: { provider: Provider | null; animated: boolean }) {
-  const route = provider === 'local'
-    ? 'M0 50H32Q40 50 40 42V31Q40 23 48 23H100'
-    : 'M0 50H32Q40 50 40 58V69Q40 77 48 77H100';
   return <div className={`flow-v4-branch ${provider ? `selected ${provider}` : ''}`} aria-hidden="true">
-    <svg className="flow-v4-branch-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <path className="flow-v4-branch-path muted" d="M0 50H40" />
-      <path className="flow-v4-branch-path muted" d="M40 50V31Q40 23 48 23H100" />
-      <path className="flow-v4-branch-path muted" d="M40 50V69Q40 77 48 77H100" />
-      {provider && <path className="flow-v4-branch-path chosen" d={route} />}
-      {provider && animated && <circle className="flow-v4-branch-dot" r="3"><animateMotion dur="1.15s" calcMode="paced" repeatCount="indefinite" path={route} /><animate attributeName="opacity" values="0.55;1;0.55" dur="1.15s" repeatCount="indefinite" /></circle>}
-    </svg>
+    <i className="flow-v4-branch-stem" />
+    <i className={`flow-v4-branch-route local ${provider === 'local' ? 'chosen' : ''}`} />
+    <i className={`flow-v4-branch-route cloud ${provider === 'cloud' ? 'chosen' : ''}`} />
     <i className={`flow-v4-tip local ${provider === 'local' ? 'chosen' : ''}`} />
     <i className={`flow-v4-tip cloud ${provider === 'cloud' ? 'chosen' : ''}`} />
+    {provider && animated && <i className={`flow-v4-branch-dot ${provider}`} />}
   </div>;
 }
 
-function RequestFlow({ phase, provider, model, localModel, cloudModel, modelsStatus, pii }: Props) {
+const SELECTION_LABEL: Record<ProviderSelection, string> = { auto: '自動分流', local: '指定本機', cloud: '指定雲端' };
+
+function RequestFlow({ phase, provider, providerSelection, model, localModel, cloudModel, modelsStatus, pii }: Props) {
   const busy = !['idle', 'complete', 'failed'].includes(phase);
   const analyzed = ['analyzed', 'routing', 'generating', 'complete'].includes(phase);
   const routing = phase === 'routing' || phase === 'generating';
@@ -46,7 +43,10 @@ function RequestFlow({ phase, provider, model, localModel, cloudModel, modelsSta
   return <section className="flow-card flow-v4" aria-label="請求處理流程">
     <div className="flow-heading">
       <div><span className="eyebrow">LIVE ROUTING</span><h2>請求處理流程</h2></div>
-      <span className={`live-status ${busy ? 'active' : ''}`}><i />{busy ? '正在處理' : phase === 'complete' ? '已完成' : phase === 'failed' ? '處理失敗' : '等待請求'}</span>
+      <div className="flow-heading-status">
+        <span className={`route-mode ${providerSelection}`}>{SELECTION_LABEL[providerSelection]}</span>
+        <span className={`live-status ${busy ? 'active' : ''}`}><i />{busy ? '正在處理' : phase === 'complete' ? '已完成' : phase === 'failed' ? '處理失敗' : '等待請求'}</span>
+      </div>
     </div>
 
     <div className="flow-v4-steps">
