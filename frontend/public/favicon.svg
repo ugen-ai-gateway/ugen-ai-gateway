@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <style>
+    .l{fill:#1f5c4d}.c{fill:#7cc4a6}.k{fill:#163b36}
+    @media (prefers-color-scheme:dark){.l{fill:#9fd6c2}.c{fill:#3f8f74}.k{fill:#ececec}}
+  </style>
+  <defs><clipPath id="m"><rect x="4" y="9" width="26" height="30" rx="13"/></clipPath></defs>
+  <rect class="l" x="4" y="9" width="26" height="30" rx="13"/>
+  <rect class="c" x="18" y="9" width="26" height="30" rx="13"/>
+  <rect class="k" x="18" y="9" width="26" height="30" rx="13" clip-path="url(#m)"/>
+</svg>

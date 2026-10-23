@@ -1,0 +1,50 @@
+# Example routing configuration. Point ROUTING_CONFIG at a copy of this file.
+# Without ROUTING_CONFIG, LOCAL_* / CLOUD_* define one local and one cloud
+# provider and moderate or complex requests go to the cloud.
+
+providers:
+  - name: ollama
+    locality: local            # local: runs on hardware you control
+    base_url: http://localhost:11434/v1
+    api_key: local
+    models:
+      - id: qwen2.5:7b
+        alias: house-model     # optional public name shown instead of the id
+
+  - name: gemini
+    locality: cloud            # cloud: always receives redacted text only
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY   # read from the environment; never stored here
+    models:
+      - id: gemini-2.5-flash
+        input_cost_per_million: 0.30    # USD, used for cost and savings reports
+        output_cost_per_million: 2.50
+      - id: gemini-2.5-pro
+        input_cost_per_million: 1.25
+        output_cost_per_million: 10.00
+
+defaults:
+  local: {provider: ollama}                          # first model when omitted
+  cloud: {provider: gemini, model: gemini-2.5-flash}
+
+# The analysis model sees unredacted text, so it must be a local provider.
+analysis: {provider: ollama, model: qwen2.5:7b}
+
+privacy:
+  # Requests containing any of these never leave this machine, even when a
+  # rule or the user asks for the cloud.
+  never_cloud: [taiwan_id, taiwan_resident_certificate, credit_card, private_key, password]
+
+# First matching rule wins; unmatched requests use defaults.local.
+rules:
+  - name: hard-coding-to-pro
+    when: {task_type: [coding], complexity: [complex]}
+    route: {provider: gemini, model: gemini-2.5-pro}
+
+  - name: translation-stays-local
+    when: {task_type: [translation]}
+    route: {provider: ollama}
+
+  - name: moderate-or-complex-to-cloud
+    when: {complexity: [moderate, complex]}
+    route: {provider: gemini}

@@ -16,7 +16,14 @@ class RoutingInfo(BaseModel):
     contains_personal_data: bool
     personal_data_types: list[str] = Field(default_factory=list)
     provider: Literal["local", "cloud"]
+    provider_name: str = ""
+    rule: str | None = None
     reason: str
+    redacted_values: int = Field(default=0, ge=0)
+    analysis_source: Literal["llm", "rules", "cache"] = "llm"
+    fallback_from: Literal["local", "cloud"] | None = None
+    injection_signals: list[str] = Field(default_factory=list)
+    output_findings: list[str] = Field(default_factory=list)
 
 
 class UsageStats(BaseModel):
@@ -42,6 +49,22 @@ class ChatRequest(BaseModel):
         min_length=1, max_length=MAX_CHAT_MESSAGES
     )
     temperature: float = Field(default=0.2, ge=0.0, le=2.0)
+
+    @field_validator("messages")
+    @classmethod
+    def materialize_content_parts(
+        cls, messages: list[ChatCompletionMessageParam]
+    ) -> list[ChatCompletionMessageParam]:
+        """The OpenAI types declare content parts as an Iterable, which pydantic
+        turns into a one-shot iterator; store them as a list so they can be
+        read more than once (analysis, redaction, guards)."""
+        materialized: list[ChatCompletionMessageParam] = []
+        for message in messages:
+            content = message.get("content")
+            if content is not None and not isinstance(content, str | list | dict):
+                message = {**message, "content": list(content)}  # type: ignore[assignment, call-overload]
+            materialized.append(message)
+        return materialized
 
     @field_validator("model")
     @classmethod
@@ -87,8 +110,10 @@ class ChatRequest(BaseModel):
 
 
 class ChatResponse(BaseModel):
+    id: str = ""
     model: str
     content: str
+    finish_reason: str | None = None
     provider: str
     routing: RoutingInfo
     usage: UsageStats | None = None

@@ -1,0 +1,35 @@
+# docker compose up -d --build
+# Or run the published image instead of building: set
+# UGEN_IMAGE=ghcr.io/baihufox3210/ugen-ai-gateway:latest in .env, then
+#   docker compose pull && docker compose up -d
+# Models are set up on the dashboard's Models page. .env is optional: copy
+# .env.example to change ports or other advanced settings.
+services:
+  gateway:
+    build: .
+    image: ${UGEN_IMAGE:-ugen-ai-gateway}
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # 127.0.0.1 keeps the gateway off the network, e.g. behind an HTTPS proxy.
+      HOST: ${GATEWAY_HOST:-0.0.0.0}
+      PORT: ${GATEWAY_PORT:-7632}
+      # Accounts, API keys and usage live here; the volume keeps them across rebuilds.
+      USAGE_DB_PATH: /app/data/ugen.db
+    volumes:
+      - ugen-data:/app/data
+    # Host networking lets the gateway reach a model server on this machine at
+    # localhost (for example Ollama on localhost:11434) with the same .env as
+    # a local run. The dashboard is then on http://<host>:${GATEWAY_PORT:-7632}.
+    # On Docker Desktop (macOS, Windows), or to isolate the container, remove
+    # network_mode and use instead:
+    #   ports: ["${GATEWAY_PORT:-7632}:${GATEWAY_PORT:-7632}"]
+    #   extra_hosts: ["host.docker.internal:host-gateway"]
+    # and point LOCAL_BASE_URL at http://host.docker.internal:11434/v1.
+    network_mode: host
+    restart: unless-stopped
+
+volumes:
+  # Named volume: survives rebuilds and is writable by the container's user.
+  ugen-data:

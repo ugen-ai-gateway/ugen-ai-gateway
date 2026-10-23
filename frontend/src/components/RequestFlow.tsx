@@ -1,4 +1,4 @@
-import type { Phase, Provider, ProviderSelection } from '../types';
+import type { AnalysisSource, Phase, PiiState, Provider, ProviderSelection } from '../types';
 
 type Props = {
   phase: Phase;
@@ -8,7 +8,10 @@ type Props = {
   localModel: string;
   cloudModel: string;
   modelsStatus: 'loading' | 'loaded' | 'error';
-  pii: { found: boolean; types: string[] } | null;
+  pii: PiiState | null;
+  analysisSource: AnalysisSource | null;
+  fallbackFrom: Provider | null;
+  injectionSignals: string[];
 };
 
 function ProcessCard({ glyph, label, title, className = '' }: {
@@ -31,36 +34,54 @@ function FlowBranch({ provider, animated }: { provider: Provider | null; animate
   </div>;
 }
 
-const SELECTION_LABEL: Record<ProviderSelection, string> = { auto: '自動分流', local: '指定本機', cloud: '指定雲端' };
+const PII_LABEL: Record<string, string> = {
+  email: 'email', taiwan_mobile: 'mobile number', taiwan_landline: 'landline', taiwan_id: 'national ID',
+  taiwan_resident_certificate: 'resident certificate', taiwan_ubn: 'business ID', passport: 'passport', nhi_card: 'NHI card',
+  credit_card: 'credit card', api_key: 'API key', jwt: 'access token', private_key: 'private key', password: 'password',
+  person_name: 'name', location: 'location',
+};
 
-function RequestFlow({ phase, provider, providerSelection, model, localModel, cloudModel, modelsStatus, pii }: Props) {
+function piiSummary(pii: PiiState): string {
+  const types = pii.types.map(type => PII_LABEL[type] ?? type).join(', ') || 'identified data';
+  return pii.redacted ? `${types} · ${pii.redacted} redacted, restored locally in the reply` : `${types} · handled by the privacy policy`;
+}
+
+const SELECTION_LABEL: Record<ProviderSelection, string> = { auto: 'Auto routing', local: 'Local only', cloud: 'Cloud only' };
+
+const SOURCE_LABEL: Record<AnalysisSource, string> = { llm: 'LOCAL MODEL', rules: 'FAST RULES', cache: 'CACHED' };
+
+function RequestFlow({ phase, provider, providerSelection, model, localModel, cloudModel, modelsStatus, pii, analysisSource, fallbackFrom, injectionSignals }: Props) {
   const busy = !['idle', 'complete', 'failed'].includes(phase);
   const analyzed = ['analyzed', 'routing', 'generating', 'complete'].includes(phase);
   const routing = phase === 'routing' || phase === 'generating';
-  const localName = provider === 'local' && model ? model : localModel || (modelsStatus === 'loading' ? '讀取模型設定中…' : modelsStatus === 'error' ? '模型設定讀取失敗' : '尚未設定');
-  const cloudName = provider === 'cloud' && model ? model : cloudModel || (modelsStatus === 'loading' ? '讀取模型設定中…' : modelsStatus === 'error' ? '模型設定讀取失敗' : '尚未設定');
+  const localName = provider === 'local' && model ? model : localModel || (modelsStatus === 'loading' ? 'Loading model settings…' : modelsStatus === 'error' ? 'Could not load model settings' : 'Not configured');
+  const cloudName = provider === 'cloud' && model ? model : cloudModel || (modelsStatus === 'loading' ? 'Loading model settings…' : modelsStatus === 'error' ? 'Could not load model settings' : 'Not configured');
 
-  return <section className="flow-card flow-v4" aria-label="請求處理流程">
+  return <section className="flow-card flow-v4" aria-label="Request routing flow">
     <div className="flow-heading">
-      <div><span className="eyebrow">LIVE ROUTING</span><h2>請求處理流程</h2></div>
+      <div><span className="eyebrow">LIVE ROUTING</span><h2>Request routing</h2></div>
       <div className="flow-heading-status">
         <span className={`route-mode ${providerSelection}`}>{SELECTION_LABEL[providerSelection]}</span>
-        <span className={`live-status ${busy ? 'active' : ''}`}><i />{busy ? '正在處理' : phase === 'complete' ? '已完成' : phase === 'failed' ? '處理失敗' : '等待請求'}</span>
+        {injectionSignals.length > 0 && <span className="route-mode injection" title={`Possible prompt injection: ${injectionSignals.join(', ')}`}>Possible injection</span>}
+        {fallbackFrom && <span className="route-mode fallback" title={fallbackFrom === 'cloud' ? 'The cloud did not respond; the local model answered' : 'The local model did not respond; the cloud answered'}>Fallback used</span>}
+        <span className={`live-status ${busy ? 'active' : ''}`}><i />{busy ? 'Working' : phase === 'complete' ? 'Completed' : phase === 'failed' ? 'Failed' : 'Waiting'}</span>
       </div>
     </div>
 
+    <div className="flow-v4-scroll">
     <div className="flow-v4-steps">
-      <ProcessCard glyph="↗" label="STEP 01 · INPUT" title="使用者請求" className={busy || phase === 'complete' ? 'done' : ''} />
+      <ProcessCard glyph="↗" label="STEP 01 · INPUT" title="User request" className={busy || phase === 'complete' ? 'done' : ''} />
       <div className={`flow-v4-link ${phase === 'sending' || phase === 'analyzing' ? 'active' : analyzed ? 'done' : ''}`} aria-hidden="true"><i /></div>
-      <ProcessCard glyph="⌕" label="STEP 02 · LOCAL CHECK" title="本機分析與隱私檢查" className={`analysis ${phase === 'analyzing' ? 'working' : analyzed ? 'done' : ''}`} />
+      <ProcessCard glyph="⌕" label={`STEP 02 · ${analysisSource ? SOURCE_LABEL[analysisSource] : 'LOCAL CHECK'}`} title="Local analysis and privacy check" className={`analysis ${phase === 'analyzing' ? 'working' : analyzed ? 'done' : ''}`} />
       <FlowBranch provider={provider} animated={routing} />
       <div className="flow-v4-targets">
         <ProcessCard glyph="⌂" label="STEP 03A · LOCAL" title={localName} className={`local ${provider === 'local' ? 'chosen' : ''} ${phase === 'generating' && provider === 'local' ? 'working' : ''} ${modelsStatus === 'error' && !localModel && !(provider === 'local' && model) ? 'config-error' : ''}`} />
         <ProcessCard glyph="✳" label="STEP 03B · CLOUD" title={cloudName} className={`cloud ${provider === 'cloud' ? 'chosen' : ''} ${phase === 'generating' && provider === 'cloud' ? 'working' : ''} ${modelsStatus === 'error' && !cloudModel && !(provider === 'cloud' && model) ? 'config-error' : ''}`} />
       </div>
     </div>
+    </div>
 
-    <div className={`privacy-result ${pii ? pii.found ? 'found' : 'clear' : ''}`}><span className="privacy-symbol">{pii?.found ? '!' : '⌑'}</span><span><b>{pii ? pii.found ? '偵測到隱私資訊' : '未偵測到隱私資訊' : '隱私資訊檢查'}</b>{pii && <small>{pii.found ? `${pii.types.join('、') || '已辨識資訊'} · 已依安全政策處理` : '請求在本機完成檢查'}</small>}</span><span className="privacy-lock">LOCAL CHECK</span></div>
+    <div className={`privacy-result ${pii ? pii.found ? 'found' : 'clear' : ''}`}><span className="privacy-symbol">{pii?.found ? '!' : '⌑'}</span><span><b>{pii ? pii.found ? 'Personal data detected' : 'No personal data detected' : 'Privacy check'}</b>{pii && <small>{pii.found ? piiSummary(pii) : 'Checked on this machine'}</small>}</span><span className="privacy-lock">LOCAL CHECK</span></div>
   </section>;
 }
 

@@ -1,0 +1,3002 @@
+[
+ {
+  "text": "嗨，早安！",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "你好，今天心情不太好，陪我聊聊天好嗎？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "謝謝你剛剛的幫忙，超有用！",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "你是誰？可以做什麼？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "晚安～明天再聊",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "台灣最高的山是哪一座？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "101 大樓有幾層？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "水的沸點是幾度？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "端午節是農曆幾月幾日？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "中華民國的國花是什麼？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「破釜沉舟」是什麼意思？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "架構是什麼意思？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是微服務？簡單說就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是區塊鏈？用一句話解釋",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "API 是什麼？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "通貨膨脹是什麼意思",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我設計一句生日祝福，要送給我媽媽",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我設計一個 LINE 群組名稱，是大學同學的群，給我五個選項",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "分析一下這句話的語氣：「好啊，你高興就好。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我比較一下珍奶跟紅茶拿鐵哪個比較好喝",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "1. 蘋果 2. 香蕉 3. 芭樂，哪個熱量最低？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我規劃一下今天晚餐要吃什麼，冰箱有雞蛋、番茄、青菜",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這句話改得更有禮貌：「你明天把報告交過來。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "這句話幫我改得口語一點：「本公司將於下週一起調整營業時間，敬請見諒。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我潤飾一下：「我覺得這個方案還不錯，但是可能有一點點貴，可以再考慮看看嗎」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請幫我把「謝謝您的耐心等候」翻成英文",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「I'm running late, be there in 10」翻成中文",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我翻譯成日文：請問廁所在哪裡？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我翻譯成英文：\n各位同仁好，下週三下午兩點將在三樓大會議室舉行季度業務檢討會議，請各部門主管準備本季的業績報告與下季的工作重點，每個部門報告時間約十五分鐘。會議結束後會有簡單的茶點，歡迎大家留下來交流。如果有任何問題，請在週一前與行政部的林小姐聯繫。謝謝大家的配合。",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我修正錯字就好：\n今天我門去了陽明山，天氣非常的好，我們在山上看到很多花，有櫻花和杜娟花，還有很多人在拍照。中午我們在山上的餐廳吃飯，菜色很豐富，價格也很合理。下午我們去了冷水坑，那裡的風景很美，我們在那裡待了一個多小時才下山。回家的路上有點賽車，但整體來說是很開新的一天。",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我用一句話總結：「本店自即日起至月底，全面商品買一送一，會員再享九折，限量供應售完為止。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我摘要這段：\n根據氣象局預報，明天起東北季風增強，北部及東北部氣溫下降，低溫約 15 度，並有短暫陣雨。中南部白天仍溫暖，但早晚溫差大，請民眾注意保暖。週末季風減弱，氣溫逐漸回升。",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Excel 怎麼把 A 欄跟 B 欄的數字加起來放在 C 欄？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Excel 要怎麼計算 A1 到 A10 的平均？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Python 怎麼把字串轉成小寫？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "git 怎麼看目前在哪個 branch？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Linux 怎麼查看資料夾大小？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想三個咖啡店的店名，走文青風",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想一個寵物美容店的 slogan",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "給我五個團隊聚餐的破冰遊戲點子",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "5 公里等於幾英里？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "華氏 100 度是攝氏幾度？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "一坪是幾平方公尺？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "1 台斤是幾公克？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "貓跟狗哪個比較好養？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "iPhone 跟 Android 手機，給長輩用哪個比較方便？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "去墾丁玩，騎機車還是開車比較好？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "為什麼天空是藍色的？簡單解釋給小孩聽",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "光合作用是什麼？國小程度解釋就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "感冒的時候可以喝冰的嗎？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "一天建議喝多少水？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是 BMI？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "勞保跟健保差在哪？簡單講就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是定存？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「的」、「得」、「地」要怎麼分？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一句母親節卡片上的話",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一段同事離職的祝福，兩三句就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我回覆這則訊息，婉拒但不要太冷淡：「這週六要不要一起去爬山？」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一則請假的 LINE 訊息給主管，明天發燒要請病假",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是系統設計？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "SEO 優化是什麼意思？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "行銷策略的 4P 是哪四個？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "debug 是什麼意思？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "分析師跟工程師哪個薪水比較高？大概就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "比較一下「因此」和「所以」用法有什麼差別",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我規劃一個週末去台南的簡單行程，吃小吃為主就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "今天是星期四，那 10 天後是星期幾？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "15 的 20% 是多少？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "1/3 加 1/6 等於多少",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這段改成條列式：早上九點開會，十一點拜訪客戶，下午兩點回公司寫報告，五點前要寄出。",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「釣魚網站」英文怎麼說？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "推薦一首適合下雨天聽的歌",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "講個冷笑話來聽聽",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "牛奶開封後可以放多久？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "衣服上沾到原子筆要怎麼洗掉？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "騎機車未戴安全帽罰多少？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "身分證遺失要去哪裡補辦？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這個句子變得更正式：「老闆說這個案子下禮拜要做完喔」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想一個 Instagram 的自我介紹，我是喜歡烘焙的上班族",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請詳細解釋 HTTPS 是怎麼保護資料傳輸的，包含憑證和金鑰交換的流程",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "DNS 查詢的完整流程是什麼？從我在瀏覽器輸入網址開始講",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我比較 React 和 Vue 的優缺點，我們團隊是三個前端新手",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "PostgreSQL 跟 MongoDB 各自適合什麼場景？請列出優缺點",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "用 Python 寫一個函式，輸入一個字串，回傳出現次數最多的字元，如果有平手回傳最先出現的",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "寫一個 JavaScript 函式，把陣列裡的物件依照 age 排序，age 相同再依照 name 排序",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一個 SQL 查詢：找出每個部門薪水最高的員工，資料表是 employees(id, name, dept_id, salary)",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "這段程式為什麼會出錯？\n```python\nnums = [1, 2, 3]\nfor i in range(len(nums)+1):\n    print(nums[i])\n```",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "這段 JS 印出來為什麼都是 3？\n```js\nfor (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 100);\n}\n```",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一封求職信，應徵行銷企劃，我有兩年社群小編經驗，會用 Canva 和 GA4，希望語氣專業但不死板，大約 300 字",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一封 email 給客戶，說明出貨會延遲一週，原因是原料短缺，要道歉並提供 5% 折扣作為補償，最後附上聯絡窗口",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "雞兔同籠，頭有 35 個，腳有 94 隻，雞和兔各幾隻？請列出算式",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "一個水池有甲乙兩個進水管，甲管單獨 6 小時注滿，乙管單獨 9 小時注滿，另有丙排水管 12 小時排完。三管同時開，幾小時注滿？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我月薪 45000，想存到 60 萬當頭期款，每月存 30%，年利率 1.5% 複利，大概要多久？請列計算過程",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我摘要這篇文章的重點，條列 5 點：\n近年來遠距工作逐漸成為常態。疫情期間，許多企業被迫轉為居家辦公，起初員工與主管都感到不適應，溝通效率下降、會議變多、工作與生活的界線也變得模糊。然而，隨著協作工具的普及，例如視訊會議、雲端文件與即時通訊軟體，團隊逐漸找到新的合作模式。一些研究顯示，遠距工作能減少通勤時間，提升員工滿意度，甚至在某些職務上提高生產力。但也有研究指出，新進員工在遠距環境下較難融入團隊文化，導師制度與非正式交流的缺乏，讓他們的學習曲線變得更陡峭。此外，管理者需要從「看見員工在座位上」轉變為「以成果為導向」的管理方式，這對許多傳統企業是一大挑戰。資安也是另一個問題，家用網路與個人裝置增加了資料外洩的風險，企業必須投入更多資源在 VPN、端點防護與員工教育上。展望未來，混合辦公可能成為主流，企業需要重新設計辦公空間，讓到辦公室的時間更專注於協作與交流，而個人專注型的工作則在家完成。政府在勞動法規上也可能需要調整，例如加班認定、職災範圍與工作設備費用的負擔等議題。總結來說，遠距工作不是單純的地點改變，而是一場組織文化、管理方法與法規制度的全面轉型。",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "請解釋一下 Git 的 rebase 和 merge 有什麼差別，什麼時候該用哪個？舉例說明",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋 JavaScript 的 event loop 是怎麼運作的，microtask 和 macrotask 差在哪",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Docker 和虛擬機的差別是什麼？從原理到使用情境都講一下",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一份新人到職第一週的 checklist，我們是 20 人的軟體新創",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "如何準備多益考到 800 分？我目前 600 分，有三個月時間，每天能讀一小時",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "請說明台灣的勞退新制怎麼計算，雇主提撥和自提各是多少，有什麼節稅效果",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "說明一下二分搜尋法的原理，並用 Python 寫一個範例",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一個 bash script，把資料夾裡所有 .jpg 檔名改成「日期_流水號.jpg」的格式",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下胰島素阻抗是什麼，跟第二型糖尿病有什麼關係",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "高血壓患者日常飲食要注意什麼？請分類說明並舉例",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "租屋時押金最多可以收幾個月？如果房東不退押金，我可以怎麼處理？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我設計一份顧客滿意度問卷，餐廳用的，大約 10 題，要有選擇題和開放題",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "請比較 ETF 定期定額和單筆投入的優缺點，適合什麼樣的人",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "說明牛頓三大運動定律，每個都舉一個生活例子",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我把以下會議逐字稿整理成會議紀錄，包含決議事項與待辦：\n小王：這次活動預算大概抓多少？\n主管：先抓二十萬，場地跟餐點佔一半。\n小李：那宣傳呢？我建議 FB 跟 IG 都要下廣告。\n主管：可以，廣告預算三萬，小李負責。\n小王：場地我這週去看三個地方，週五前回報。\n主管：好，餐點的部分小陳去問兩家外燴報價。\n小陳：了解，下週一給大家。\n主管：活動日期暫定 12 月 14 日，下次會議 11 月 5 日。",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我想開始重訓，每週可以去三次健身房，每次一小時，幫我排一個新手的課表",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "寫一個 Python 爬蟲，抓某個網頁上所有的 <a> 連結並存成 csv",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "什麼是 CAP 定理？請舉實際資料庫為例說明三者取捨",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "為什麼要用 index？資料庫索引的原理是什麼？B-tree 怎麼加速查詢？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一個產品介紹文案，是一款保溫瓶，賣點是 24 小時保冰、可放進車用杯架、有三種顏色，目標客群是上班族，約 200 字",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "這個 CSS 為什麼 div 沒有置中？\n```css\n.box { width: 200px; margin: auto; display: inline-block; }\n```",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下複利和單利的差別，並算出 10 萬元放 10 年、年利率 3% 兩者差多少",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我要辦一場 30 人的公司尾牙，幫我列出準備流程和時間表",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "請說明 OAuth 2.0 授權碼流程的每一個步驟",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "小孩三歲還不太會說話，需要擔心嗎？有哪些徵兆要去看醫生？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我把這段英文摘要成中文重點，約 150 字：\nThe city council voted on Tuesday to approve a new bike lane network spanning 40 kilometers across the downtown area. Supporters argue the plan will reduce traffic congestion and air pollution, while also encouraging healthier lifestyles. Critics, mainly local business owners, worry that removing parking spaces will hurt their sales. The council promised to conduct a study six months after construction to measure the impact on local businesses. Construction is expected to begin next spring and finish within two years, with a total budget of 120 million dollars, partly funded by a national green transportation grant.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "用 Python 寫一個簡單的猜數字遊戲，電腦隨機 1 到 100，玩家猜，提示太大太小，最後顯示猜了幾次",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我是國中老師，要教「一元一次方程式」，幫我設計一堂 45 分鐘的教案，有引起動機、講解和練習",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下什麼是機器學習裡的過擬合，有哪些方法可以避免？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "證明根號 2 是無理數",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼 TCP 需要三次握手而不是兩次？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我的 React app 一直 re-render 怎麼辦？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "實作一個 LRU cache，get 和 put 都要 O(1)",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "設計一個像 LINE 這樣的即時通訊系統，要支援一億使用者、群組聊天、已讀回條和離線訊息",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我設計一個電商平台的後端架構，預計每日 50 萬訂單，要考慮庫存一致性、金流、秒殺活動",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們公司要從單體架構轉成微服務，目前是 Django 單體、PostgreSQL、團隊 8 人，請給我遷移計畫、拆分策略和風險",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "以下是錯誤訊息，幫我找原因：\n```\nTraceback (most recent call last):\n  File \"app.py\", line 42, in <module>\n    main()\n  File \"app.py\", line 38, in main\n    asyncio.run(worker.start())\n  File \"/usr/lib/python3.11/asyncio/runners.py\", line 190, in run\n    return runner.run(main)\n  File \"worker.py\", line 77, in start\n    await asyncio.gather(*tasks)\n  File \"worker.py\", line 55, in fetch\n    async with self.session.get(url) as resp:\nRuntimeError: Event loop is closed\n```\n只有在任務數超過 100 時才會發生，少的時候正常",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "這段多執行緒程式偶爾會算錯總和，幫我找出問題並修正，並解釋為什麼：\n```java\nclass Counter {\n  private int count = 0;\n  public void inc() { count++; }\n  public int get() { return count; }\n}\n// 10 個 thread 各呼叫 inc() 10000 次\n```\n另外如果改成用 volatile 可以嗎？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請用 Python 實作 Dijkstra 演算法，支援負權重偵測並在有負權重時改用 Bellman-Ford，附時間複雜度分析",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "實作一個紅黑樹的插入操作",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我想在 6 個月內開一家 20 坪的早午餐店，預算 250 萬，在台中，請幫我規劃時程、預算分配、人力配置與主要風險",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "公司要導入 ERP 系統，員工 150 人、有製造跟貿易兩條產品線、預算 800 萬，請給我選型評估方法、導入階段、時程和可能失敗的原因",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我被公司資遣，年資 6 年 3 個月，月薪 52000，公司說只給一個月資遣費，還要我簽自願離職同意書。依台灣勞基法跟勞退新制，我應該拿到多少？我該怎麼做？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我跟朋友合夥開公司，口頭約定股份五五分，現在他要退出，但公司有負債 200 萬、也有一台車登記在他名下，我們該怎麼處理才合法？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我爸 68 歲，有高血壓、糖尿病，最近腎功能指數 eGFR 從 60 掉到 42，醫生開了 SGLT2 抑制劑，他原本在吃 metformin 和 ARB，這樣的組合要注意什麼？飲食要怎麼調整？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我 35 歲，年收 120 萬，有房貸 800 萬（利率 2.1%、剩 25 年），存款 150 萬，想在 55 歲退休，請幫我分析該怎麼配置資產、是否該提前還房貸",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請證明：任意 n 個整數中，必存在若干個數（至少一個）的和可以被 n 整除",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "證明質數有無限多個，並說明歐幾里得證法和另一種不同的證法",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "P=NP 嗎？為什麼這個問題這麼難？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼 HashMap 在 Java 8 之後要把鏈結串列改成紅黑樹？什麼時候會轉換？效能上有什麼影響？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的 API 在尖峰時段 p99 延遲從 200ms 飆到 3 秒，架構是 Nginx → Node.js → Redis → MySQL，CPU 只有 40%，該從哪裡開始查？請給我完整的排查步驟",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Kubernetes 的 Pod 一直 CrashLoopBackOff，log 只看到 exit code 137，該怎麼查？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我設計一個推薦系統，給一個有 30 萬商品、200 萬會員的電商使用，要處理冷啟動問題，並說明線上線下評估方式",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請幫我分析這份合約條款有沒有對我不利的地方：\n第五條：乙方於合約期間及合約終止後三年內，不得於台灣地區從事與甲方相同或類似之業務，違者應賠償甲方新台幣五百萬元。\n第八條：乙方之所有工作成果，包括於非上班時間以個人設備完成者，其著作權均歸甲方所有。\n第十二條：甲方得隨時以書面通知終止本合約，乙方需提前六個月通知。\n我是軟體工程師，月薪 7 萬",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我寫一份完整的創業計畫書架構與內容，產品是給長照家庭用的照護排班 App，要包含市場分析、競品、商業模式、財務預測三年、募資需求",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我實作一個支援 undo/redo 的文字編輯器核心資料結構，用 TypeScript，要能處理大量文字",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "一個分散式系統要怎麼產生全域唯一且遞增的 ID？請比較 Snowflake、資料庫號段、UUID v7 等方案，並針對時鐘回撥問題提出解法",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的團隊要設計一套權限系統，有多租戶、角色繼承、資源層級（公司 > 部門 > 專案），還要能稽核，請給我資料表設計和檢查邏輯",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請比較台灣個人綜所稅的分開計稅與合併申報，我年薪 180 萬、太太 90 萬、兩個小孩、有房貸利息 12 萬、保險費 6 萬，哪種方式比較省？請實際算",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "一個袋子有 3 紅 5 藍球，不放回連抽，直到抽到第二顆紅球為止，請求抽球次數的期望值並給推導",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我規劃一個為期一學期的高中 AI 選修課，18 週、每週 2 節，學生沒有程式基礎，要有專題、評量方式和每週主題",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們 SaaS 的流失率從 3% 升到 7%，這是過去半年的數據：新客數持續增加、客單價下降 15%、客服工單成長 40%、新功能上線 6 個，請幫我分析可能原因並提出改善策略與驗證方法",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼浮點數 0.1 + 0.2 不等於 0.3？請從 IEEE 754 的位元層級解釋，並說明在金融系統中應該怎麼處理",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請寫一個簡單的直譯器，可以解析並計算包含 +-*/、括號和變數賦值的運算式，用 Python",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "設計一個停車場管理系統的物件導向架構，要支援多種車型、多樓層、計費規則可擴充、月租與臨停",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Rust 的 borrow checker 一直報 cannot borrow as mutable because it is also borrowed as immutable，我的程式是一個 graph 結構，節點要互相參照，該怎麼設計？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我媽被診斷乳癌第二期，HER2 陽性，醫生建議先化療再手術，也有提到標靶藥物。請幫我整理治療選項、各自副作用、健保給付情況和我們該問醫生的問題",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我寫一個完整的 Flask 後端，包含使用者註冊登入（JWT）、文章 CRUD、分頁、權限檢查，以及對應的單元測試",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "如何證明停機問題不可判定？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請分析台灣少子化對未來 20 年高等教育、勞動市場和退休金制度的影響，並提出政策建議",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼 Python 有 GIL？拿掉它會有什麼代價？3.13 的 free-threading 是怎麼解決的？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我把這個 O(n^2) 的演算法優化到 O(n log n)，題目是：給一個陣列，求有多少對 (i, j) 滿足 i < j 且 a[i] > 2 * a[j]",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我要在三個月內把公司的機房搬到 AWS，有 40 台 VM、兩套 Oracle 資料庫、一個 AD，停機時間不能超過 4 小時，幫我規劃遷移步驟和回滾方案",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "設計一個高可用的訂票系統，演唱會開賣瞬間 50 萬人搶 2 萬張票，要避免超賣且公平",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我的網站被 SQL injection 攻擊，log 裡看到 ' OR 1=1 --，請幫我做事件應變：要先做什麼、怎麼評估資料外洩範圍、要不要通報、之後怎麼修補",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "用動態規劃解：給定字串 s 和字典 wordDict，回傳所有可以切分成字典單字的句子，並分析最壞情況的複雜度",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我比較在台灣成立有限公司跟股份有限公司、行號的差異，從稅務、責任、募資、設立成本來看，我是要做跨境電商、預計第一年營收 800 萬、可能會找天使投資",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我家小孩 8 歲，學校老師懷疑是 ADHD，我們該怎麼評估？藥物和非藥物治療各有什麼利弊？在學校要怎麼爭取資源？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼 Raft 演算法需要 term？如果 leader 在 commit 前掛掉會發生什麼？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "請完整說明如何從零建立一個公司的資料平台，包含資料蒐集、ETL、資料倉儲、BI、資料治理，團隊只有 3 人、預算一年 200 萬",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我寫一個 CRDT 實作，可以讓多人同時編輯同一份文件的純文字",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "hey there!",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Good morning, how are you today?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "thanks a lot, that helped",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "lol that's funny. tell me another joke",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the capital of Australia?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Who wrote Pride and Prejudice?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How many ounces are in a cup?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Convert 72 kg to pounds",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is 18% of 240?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is system design?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "compare the taste of apples and pears",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What does 'optimize' mean in plain English?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is a microservice? one sentence please",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Define 'latency' in networking",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What does debug mean?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's a marketing strategy, in simple terms?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Can you analyze the tone of this sentence: 'Sure, whatever works for you.'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Help me plan what to cook tonight, I have chicken, rice and broccoli",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Design a short birthday message for my coworker Sam",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Which is healthier: 1. white rice 2. brown rice?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Coffee or tea in the morning, which is better?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Should I get a cat or a dog if I live in a small apartment?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Make this sound more polite: 'Send me the file now.'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Rewrite this to be more formal: 'Hey guys, meeting's moved to 3, don't be late'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Polish this sentence: 'Me and my team has finished the project ahead of schedule.'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Fix the typos:\nDear Mr. Thompson, I am writting to follow up on our conversaton last week regarding the upcomming product launch. As we discused, the marketing materails will be ready by the end of the month, and the sales team has alredy begun reaching out to key acounts. Please let me know if you have any questions or if their is anything else you need from my side. I look foward to hearing from you. Best regards, Linda",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Translate to Chinese: 'The meeting has been postponed until next Monday.'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How do you say 'nice to meet you' in Japanese?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Translate to Traditional Chinese:\nThank you for your order! Your package has been shipped and is expected to arrive within 3 to 5 business days. You can track your shipment using the tracking number provided in this email. If you have any questions about your order, please contact our customer service team at any time. We hope you enjoy your purchase and look forward to serving you again.",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Summarize in one sentence: 'Due to scheduled maintenance, the online banking service will be unavailable from 1 AM to 5 AM on Sunday. We apologize for any inconvenience.'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "TL;DR this: The library will extend its opening hours during exam season. From December 1 to December 20, it will be open from 7 AM to midnight on weekdays and 9 AM to 10 PM on weekends. Study rooms can be booked online up to three days in advance.",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Excel formula to count cells that are not empty in column B?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How do I reverse a list in Python?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the git command to undo the last commit but keep the changes?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How do I check my Node version?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Give me 5 name ideas for a hiking club",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Suggest a catchy slogan for a lemonade stand",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Write a happy birthday message for my grandma turning 90",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Write a short thank-you note to my neighbor for watering my plants",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Why do leaves change color in autumn? Keep it short",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is photosynthesis?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Is it okay to drink coffee on an empty stomach?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How many hours of sleep does an adult need?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the difference between a Roth IRA and a traditional IRA, briefly?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What does 'force majeure' mean?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the boiling point of water in Fahrenheit?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How long should I boil an egg for a soft yolk?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "How do I get a red wine stain out of a white shirt?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Recommend a good book for a long flight",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What year did the Berlin Wall fall?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Is a tomato a fruit or a vegetable?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the plural of 'cactus'?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Explain what an API is like I'm five",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is the architecture of a typical house called with a flat roof?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Reply to this text politely declining: 'Want to grab dinner Friday?'",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What time zone is Taipei in?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Give me three fun facts about octopuses",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Sort these alphabetically: banana, apple, cherry, date",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Explain how a hash table works under the hood, including collision handling",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "How does garbage collection work in Java? Explain generational GC",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Compare Kafka and RabbitMQ: pros, cons, and when to pick each",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Compare REST vs GraphQL for a mobile app backend",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a Python function that checks whether a string is a valid IPv4 address",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a JavaScript debounce function and explain how it works",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a SQL query to get the top 3 customers by total spend in each country from orders(customer_id, country, amount)",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Why does this return None?\n```python\ndef add_item(lst, item):\n    lst = lst.append(item)\n    return lst\n```",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Fix this: my Go code says 'declared and not used'\n```go\nfunc main() {\n    x := 5\n    y := 10\n    fmt.Println(x)\n}\n```",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a cover letter for a junior data analyst role at a healthcare company. I have a stats degree, know SQL and Tableau, and did an internship at a hospital. Keep it under 300 words.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write an email to my landlord asking to fix a leaking faucet, mention it's been two weeks, I've reported it twice, and ask for a date by Friday",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "A train leaves at 9:00 going 80 km/h, another leaves the same station at 10:30 going 120 km/h in the same direction. When and where does the second catch up?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "I invest $500 a month at 7% annual return compounded monthly. How much will I have after 20 years? Show the steps.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Summarize this article into 5 key points:\nRemote work has reshaped the modern workplace in ways few predicted. When the pandemic forced offices to close, companies scrambled to equip employees with laptops, VPN access, and collaboration software. Early surveys reported a dip in productivity as workers adjusted to home environments filled with distractions. Over time, however, many organizations reported productivity gains, attributing them to reduced commute times and greater autonomy. Yet these benefits were not evenly distributed. Junior employees, in particular, reported feeling disconnected and missing out on informal mentorship that happens naturally in an office. Managers struggled to evaluate performance without visual cues, leading some companies to adopt invasive monitoring software, which in turn damaged trust. Meanwhile, commercial real estate faced a crisis as demand for office space fell sharply in major cities. Some firms embraced fully remote models, closing offices entirely and hiring talent globally. Others mandated a return to office, citing culture and innovation. The most common outcome has been a hybrid arrangement, where employees come in two or three days a week. Experts suggest that the success of hybrid work depends on intentional design: clear norms about which activities happen in person, investment in onboarding, and leadership that models the desired behaviors. The debate is far from settled, but it is clear that the traditional five-day office week is unlikely to return as the default.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain the difference between processes and threads, with examples of when to use each",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "How does public key cryptography work? Walk me through an example with Alice and Bob",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a bash one-off script that finds all files larger than 100MB in my home directory and lists them sorted by size",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain how vaccines train the immune system, including memory B and T cells",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "What should I know before signing a 12-month apartment lease? Give me a checklist with explanations",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Create a 4-week beginner running plan to go from walking to running 5K",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain the difference between let, const and var in JavaScript with examples of hoisting",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a Python class for a bank account with deposit, withdraw (no overdraft), and transaction history",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain how the Federal Reserve raising interest rates affects inflation and mortgage rates",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a lesson plan for teaching fractions to 4th graders, 45 minutes, with an activity",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Turn these notes into a short project status update email for my manager: backend done, frontend 70%, QA starts Monday, risk: designer on leave next week, need decision on logo",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain Big O notation and give the complexity of common sorting algorithms",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "What's the difference between a 401(k) and an IRA, and how should I prioritize contributing to them?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "This regex doesn't match emails like john.doe@mail.co.uk, can you fix it? ^[a-z]+@[a-z]+\\.[a-z]{2,3}$",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "How does HTTPS differ from HTTP? Explain the TLS handshake step by step",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a React component that fetches a list of users from an API and shows a loading state and error message",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Explain how compound interest works and why starting early matters, with a numeric example",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Why do I get a deadlock when two goroutines each lock mutex A and B in different order, and how do I restructure it safely across a large codebase?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "implement LRU cache",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Is P=NP?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Prove that there are infinitely many primes of the form 4k+3",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Prove that every tree with n nodes has exactly n-1 edges",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Why can't you have consensus in an asynchronous system with one faulty process?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design a URL shortener like bit.ly that handles 10k writes/sec and 1M reads/sec, with analytics",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design the backend for a ride-sharing app: matching riders and drivers, surge pricing, real-time location updates",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "We're seeing intermittent 502s from our ALB to ECS tasks only during deploys. Health checks pass. What could cause it and how do we fix it permanently?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Debug this: my Node server's memory grows from 200MB to 2GB over a day then crashes. Here's the heap snapshot summary: (array) 40%, (string) 25%, Closure 20%, mostly retained by EventEmitter listeners. We use socket.io and a Redis pub/sub adapter.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Here's my stack trace, what's wrong?\n```\njava.util.ConcurrentModificationException\n  at java.util.HashMap$HashIterator.nextNode(HashMap.java:1597)\n  at java.util.HashMap$KeyIterator.next(HashMap.java:1620)\n  at com.acme.cache.Evictor.run(Evictor.java:48)\n  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n```\nIt only happens under load, and Evictor runs on a scheduled thread while request threads call cache.put()",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement a trie with insert, search, startsWith and delete in C++, and explain memory trade-offs",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a thread-safe bounded blocking queue in Java without using java.util.concurrent",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement the A* pathfinding algorithm on a grid with weighted terrain, in Python",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Plan the launch of a B2B SaaS product in 6 months with a $300k budget and a team of 5: milestones, hiring, GTM, and key risks",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "I'm organizing a 3-day tech conference for 800 people in Taipei with a $400k budget. Build me a timeline, budget breakdown, vendor list, and risk mitigation plan.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "My employer in California hasn't paid overtime for 6 months, I'm classified as exempt but I make $52k and mostly do data entry. What are my options and what could I recover?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "I'm 58, have $900k in a 401(k), $200k in a brokerage, and want to retire at 62. Should I do Roth conversions before Social Security kicks in? Walk me through the tax implications.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "My mom is on warfarin and her doctor just prescribed amiodarone. Her INR has been stable at 2.5. What interactions should we watch for and what monitoring is reasonable?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Analyze this 10-K excerpt and tell me the key risks to the business, any red flags in revenue recognition, and how the liquidity position has changed:\nRevenue increased 34% year over year to $1.2 billion, driven primarily by multi-year contracts recognized upfront upon delivery of software licenses. Deferred revenue decreased from $310 million to $180 million. Accounts receivable increased from $140 million to $390 million, with days sales outstanding rising from 52 to 118. The company entered into a new $500 million revolving credit facility, of which $350 million was drawn as of year-end. Cash and equivalents decreased from $420 million to $95 million. Management notes that two customers accounted for 38% of revenue, compared with 12% in the prior year. Goodwill impairment testing was performed and no impairment was recorded, although the company's market capitalization fell below book value during the fourth quarter.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Why does the TCP congestion window halve on packet loss, and why is that fair? How do BBR and CUBIC differ?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Why is my React app re-rendering every child when I type in an input?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a complete REST API in Go for a todo app with JWT auth, PostgreSQL, migrations, rate limiting, and tests",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Explain and prove why quicksort's expected running time is O(n log n)",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design a schema and indexing strategy for a multi-tenant analytics database that ingests 5 billion events per day and supports ad-hoc queries under 2 seconds",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Our Postgres query went from 50ms to 30s after the table grew to 200M rows. EXPLAIN shows a seq scan even though there's an index on (user_id, created_at). The query is WHERE user_id = $1 AND created_at > now() - interval '7 days' ORDER BY created_at DESC LIMIT 50. What's going on?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Give me a thorough, multi-part comparison of event sourcing vs. CRUD for a banking ledger, including consistency, auditing, schema evolution, and operational cost",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a lock-free single-producer single-consumer ring buffer in Rust",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "How would you migrate a 2TB MySQL database to PostgreSQL with less than 5 minutes of downtime?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Solve: find all integer solutions to x^2 - 2y^2 = 1 and prove you found them all",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "A startup offers me 0.5% equity with a 4-year vest and 1-year cliff, $140k salary, vs. a big tech offer of $210k + $80k/yr RSUs. Series A, $40M post-money. Help me model the expected value under several exit scenarios and the risks.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Build a full 12-week curriculum for teaching high schoolers Python, with weekly goals, projects, assessments, and differentiation for advanced students",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Can you review this contract clause and tell me if it's enforceable in New York? 'Employee agrees not to work for any company in the technology sector anywhere in the world for 5 years after termination.'",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Why does my Kubernetes HPA keep flapping between 3 and 12 replicas every few minutes?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a compiler front-end for a tiny language with let-bindings, functions and if-expressions: lexer, parser to AST, and type checker",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design a fraud detection pipeline for card transactions with <100ms decision latency, combining rules and ML, and explain how you'd handle label delay and concept drift",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Our churn jumped from 2% to 6% after a pricing change. We have cohort data, NPS, and support tickets. Walk me through a full analysis plan and what interventions you'd test.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Derive the closed-form solution for ordinary least squares and explain when the normal equations fail",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement consistent hashing with virtual nodes and show how keys rebalance when a node is added",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a detailed literature-style review of the evidence on intermittent fasting for weight loss vs. continuous calorie restriction, covering RCTs, limitations, and who it may be unsafe for",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我把 'deadline' 換成中文比較自然的說法",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請問 RAM 跟 ROM 差在哪？簡單說",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "這句 email 開頭 OK 嗎？「Hi Kevin，想跟你 follow up 一下上週的 meeting」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我 optimize 一下這句：「我們這個 product 很好用，大家都 like」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "KPI 跟 OKR 是什麼意思？",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "週末想看 movie，推薦一部 feel-good 的",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是 Kubernetes？一句話就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一句 Happy Birthday 給同事，中英夾雜沒關係",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請 compare 一下 Uber Eats 和 foodpanda 哪個外送比較快",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我解釋 Python 的 decorator 是怎麼運作的，附一個 timing decorator 的例子",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一封 email 給國外 vendor，請他們 quote 500 個 unit 的價格，要求 lead time 和 MOQ，語氣 professional",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "useEffect 的 dependency array 到底怎麼運作？為什麼放 object 會一直觸發？",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我比較 AWS Lambda 跟 ECS Fargate 的 cost 和使用情境",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我們的 microservices 之間用 gRPC，最近 deadline exceeded 錯誤變多，trace 顯示是 service B 呼叫 C 時排隊，但 C 的 CPU 很低，該怎麼 root cause？",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我 design 一個 multi-region 的 active-active 資料庫架構，要處理 conflict resolution 和 failover",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "implement 一個 rate limiter，支援 sliding window，要在分散式環境下用 Redis 做，請考慮 race condition",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "好，謝謝",
+  "previous": "幫我寫一段給客戶的感謝訊息，謝謝他們今年的支持",
+  "label": "simple"
+ },
+ {
+  "text": "謝謝，很清楚！",
+  "previous": "設計一個像 LINE 這樣的即時通訊系統，要支援一億使用者、群組聊天、已讀回條和離線訊息",
+  "label": "simple"
+ },
+ {
+  "text": "換成英文",
+  "previous": "幫我寫一句母親節卡片上的話",
+  "label": "simple"
+ },
+ {
+  "text": "可以再短一點嗎",
+  "previous": "幫我寫一則請假的 LINE 訊息給主管，明天發燒要請病假",
+  "label": "simple"
+ },
+ {
+  "text": "了解了，感謝",
+  "previous": "請詳細解釋 HTTPS 是怎麼保護資料傳輸的",
+  "label": "simple"
+ },
+ {
+  "text": "再給我三個",
+  "previous": "幫我想三個咖啡店的店名，走文青風",
+  "label": "simple"
+ },
+ {
+  "text": "翻成中文",
+  "previous": "Write a short thank-you note to my neighbor for watering my plants",
+  "label": "simple"
+ },
+ {
+  "text": "語氣再輕鬆一點",
+  "previous": "幫我把這句話改得更有禮貌：「你明天把報告交過來。」",
+  "label": "simple"
+ },
+ {
+  "text": "thanks!",
+  "previous": "Explain how a hash table works under the hood, including collision handling",
+  "label": "simple"
+ },
+ {
+  "text": "make it a bit funnier",
+  "previous": "Write a happy birthday message for my grandma turning 90",
+  "label": "simple"
+ },
+ {
+  "text": "translate that to English",
+  "previous": "幫我寫一句生日祝福給我的主管",
+  "label": "simple"
+ },
+ {
+  "text": "ok great, thanks so much",
+  "previous": "Design the backend for a ride-sharing app: matching riders and drivers, surge pricing, real-time location updates",
+  "label": "simple"
+ },
+ {
+  "text": "give me 5 more",
+  "previous": "Give me 5 name ideas for a hiking club",
+  "label": "simple"
+ },
+ {
+  "text": "and New Zealand?",
+  "previous": "What's the capital of Australia?",
+  "label": "simple"
+ },
+ {
+  "text": "OK 謝啦",
+  "previous": "幫我寫一封 email 給國外 vendor 詢價",
+  "label": "simple"
+ },
+ {
+  "text": "所以結論是哪個？一句話就好",
+  "previous": "幫我比較 React 和 Vue 的優缺點",
+  "label": "simple"
+ },
+ {
+  "text": "第三步再詳細一點",
+  "previous": "請說明 OAuth 2.0 授權碼流程的每一個步驟",
+  "label": "moderate"
+ },
+ {
+  "text": "改成應徵產品經理的版本",
+  "previous": "幫我寫一封求職信，應徵行銷企劃，我有兩年社群小編經驗",
+  "label": "moderate"
+ },
+ {
+  "text": "那 Node.js 的 event loop 有什麼不一樣？",
+  "previous": "解釋 JavaScript 的 event loop 是怎麼運作的",
+  "label": "moderate"
+ },
+ {
+  "text": "改成回傳前三名，並加上單元測試",
+  "previous": "用 Python 寫一個函式，輸入一個字串，回傳出現次數最多的字元",
+  "label": "moderate"
+ },
+ {
+  "text": "那它跟單體架構比起來有什麼優缺點？舉例說明",
+  "previous": "什麼是微服務？簡單說就好",
+  "label": "moderate"
+ },
+ {
+  "text": "如果我膝蓋有舊傷要怎麼調整？",
+  "previous": "我想開始重訓，每週可以去三次健身房，幫我排一個新手課表",
+  "label": "moderate"
+ },
+ {
+  "text": "what about NATS?",
+  "previous": "Compare Kafka and RabbitMQ: pros, cons, and when to pick each",
+  "label": "moderate"
+ },
+ {
+  "text": "now support IPv6 too",
+  "previous": "Write a Python function that checks whether a string is a valid IPv4 address",
+  "label": "moderate"
+ },
+ {
+  "text": "go deeper on how digital signatures work",
+  "previous": "How does public key cryptography work?",
+  "label": "moderate"
+ },
+ {
+  "text": "make it tailored for a fintech company instead and mention my Python skills",
+  "previous": "Write a cover letter for a junior data analyst role at a healthcare company",
+  "label": "moderate"
+ },
+ {
+  "text": "ok now explain how they communicate with each other in more depth",
+  "previous": "What is a microservice? one sentence please",
+  "label": "moderate"
+ },
+ {
+  "text": "繼續",
+  "previous": "幫我設計一個電商平台的後端架構，預計每日 50 萬訂單，要考慮庫存一致性、金流、秒殺活動",
+  "label": "complex"
+ },
+ {
+  "text": "第二點再詳細一點",
+  "previous": "我們公司要從單體架構轉成微服務，目前是 Django 單體、PostgreSQL、團隊 8 人，請給我遷移計畫",
+  "label": "complex"
+ },
+ {
+  "text": "那如果改用 Redis 呢?",
+  "previous": "幫我設計一個高可用的訂票系統，演唱會開賣瞬間 50 萬人搶 2 萬張票，要避免超賣",
+  "label": "complex"
+ },
+ {
+  "text": "如果預算砍到 150 萬要怎麼改？",
+  "previous": "我想在 6 個月內開一家 20 坪的早午餐店，預算 250 萬，在台中，請規劃時程、預算、人力與風險",
+  "label": "complex"
+ },
+ {
+  "text": "改成執行緒安全的版本，並支援 TTL",
+  "previous": "實作一個 LRU cache，get 和 put 都要 O(1)",
+  "label": "complex"
+ },
+ {
+  "text": "如果我已經簽了呢？還有救嗎？",
+  "previous": "我被公司資遣，年資 6 年 3 個月，月薪 52000，公司只給一個月資遣費還要我簽自願離職",
+  "label": "complex"
+ },
+ {
+  "text": "我照你說的查了，發現 MySQL 有大量 lock wait，接下來呢？",
+  "previous": "我們的 API 在尖峰時段 p99 延遲飆到 3 秒，架構是 Nginx → Node.js → Redis → MySQL",
+  "label": "complex"
+ },
+ {
+  "text": "那根號 3 呢？可以推廣到所有非完全平方數嗎？證明一下",
+  "previous": "證明根號 2 是無理數",
+  "label": "complex"
+ },
+ {
+  "text": "more detail on step 3",
+  "previous": "Design a URL shortener like bit.ly that handles 10k writes/sec and 1M reads/sec, with analytics",
+  "label": "complex"
+ },
+ {
+  "text": "continue",
+  "previous": "Plan the launch of a B2B SaaS product in 6 months with a $300k budget and a team of 5",
+  "label": "complex"
+ },
+ {
+  "text": "now make it support concurrent reads and writes",
+  "previous": "Implement a trie with insert, search, startsWith and delete in C++",
+  "label": "complex"
+ },
+ {
+  "text": "I added the index you suggested but it's still slow, EXPLAIN now shows a bitmap heap scan with 4M rows rechecked",
+  "previous": "Our Postgres query went from 50ms to 30s after the table grew to 200M rows. EXPLAIN shows a seq scan",
+  "label": "complex"
+ },
+ {
+  "text": "那 conflict resolution 的部分再展開講",
+  "previous": "幫我 design 一個 multi-region 的 active-active 資料庫架構",
+  "label": "complex"
+ },
+ {
+  "text": "早安～今天好冷喔 🥶 你那邊天氣怎樣",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "謝謝你剛剛的幫忙!!真的救了我一命",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "台灣最高的山是哪一座?海拔多少",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請問「邊緣運算」是什麼意思?一句話解釋就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是零知識證明?給我簡單定義就好,不用講數學",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這段改得通順一點:「我們公司在上個月的時候有進行了一個關於員工滿意度的調查,然後結果發現大家對於薪水的部分好像是比較不滿意的樣子。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想 5 個咖啡廳的店名,要有點文青感☕",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我設計一句母親節的祝福語,溫馨一點,要寫在卡片上",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "比較一下 7-11 跟全家的大杯美式哪個比較便宜?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "講個工程師的冷笑話來聽聽",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Excel 要怎麼算一整欄的平均?給我公式就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "翻譯成英文:「本店每週一公休,造成不便敬請見諒。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我修錯字:「我明天會在公四開會,請大家準時到場,不要遲倒,會議資料我等等會寄到大家的心箱。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把下面這段翻成英文,不用改內容,照翻就好:\n\n「親愛的會員您好,感謝您長期以來對本店的支持。為了提供更好的服務品質,本店將於十一月一日起進行內部裝修,預計為期兩週,裝修期間暫停營業。重新開幕後,我們將推出全新的季節限定菜單,包括南瓜濃湯、松露燉飯以及栗子蒙布朗等甜點。另外,凡於重新開幕首週來店消費的會員,皆可獲得一張九折優惠券,使用期限至十二月底。造成您的不便,我們深感抱歉,也期待很快能再次為您服務。如有任何問題,歡迎來電或透過官方 LINE 帳號與我們聯繫。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我分析一下「魑魅魍魎」這四個字怎麼念",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "規劃一下今天晚餐吃什麼好?想吃清淡一點的",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "k8s 裡的 Pod 是什麼?簡單講",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是黎曼猜想?不用證明,只要跟我說它在講什麼",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "哈哈哈你好好笑 😂😂",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一個手搖飲的 slogan,要押韻,短一點",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "中秋節的由來是什麼?簡短說一下就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「系統」這個詞英文怎麼說?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這封訊息改得禮貌一點:「你們的東西才用三天就壞掉了,快點給我退錢。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我校對錯字跟標點就好,內容不要動:\n\n各位家長您好,本學期的親師座談會將於十月二十號(星期六)上午九點在本校大禮堂舉形,會中將由各班導師說明本學期的教學計畫、班級經營方式以及升學輔導的相關事項,另外也會介紹今年新成立的社團活動,歡迎家長踴躍參加。因停車位有限,建議家長多加利用大眾運輸工具,學校週邊的停車場也有提供優惠方案。如無法出席,也可以透過班級群組留言給導師,我們會在會後整理問題統一回覆,謝謝大家的配合!!若有其他問題請洽教務處 分機 213。",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「架構師」的英文是什麼?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我取一個貓咪的名字,牠是橘色的,胖胖的,很愛睡",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我摘要這段話成一句:「今年第三季營收較去年同期成長 12%,主要受惠於海外市場的擴張。不過毛利率因原物料成本上升而略為下滑。管理層預期第四季將維持穩定成長。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "台北到高雄搭高鐵大概要多久?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "晚安囉 明天見~🌙",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "想問一下 optimize 跟 optimise 差在哪?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "演算法裡的 O(n log n) 是什麼意思?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是量子糾纏?一兩句話講完就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「生日快樂」的台語怎麼說?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "給我一個 Python 反轉字串的寫法",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "珍奶跟鮮奶茶哪個熱量比較高?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "「策略」跟「戰略」有什麼差別?簡單講",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "推薦一部週末可以看的輕鬆電影,不要恐怖片",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我改寫成比較口語的:「敬請各位同仁於本週五前繳交季度報告。」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "這句英文文法對嗎? \"She don't like apples.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想三個團隊名稱,我們是做資料分析的,要好記",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是 debounce?一句話就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "收到,感謝 🙏",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是 CAP 定理?定義就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請問 debug 這個字的由來是什麼?聽說跟蟲有關",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我寫一句給畢業學弟妹的祝福,簡短有力",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "把這句改成正式一點的用語:「老闆說這案子先擱著,等下禮拜再說」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我把這個清單照字母排序:banana, apple, cherry, mango, kiwi",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我規劃一個IG帳號名稱,我賣手工蠟燭 🕯️",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是「系統性風險」?一句話",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "哪個比較划算:Netflix 標準方案還是 Disney+ 年繳?大概算一下就好",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "可以幫我把「今天天氣很好」翻成日文和韓文嗎",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "什麼是同態加密?給個簡短定義",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "請解釋 HTTPS 的握手過程,它大概是怎麼確保傳輸安全的?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "用 Python 寫一個函式,輸入一個字串,回傳出現次數最多的字元,如果平手就回傳最早出現的那個",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "React 跟 Vue 各有什麼優缺點?我們團隊三個人要做一個公司內部後台",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一封 email 給房東,說熱水器壞了兩週還沒修,要求在本週內處理,不然我會自己找人修然後從房租扣,語氣要堅定但有禮貌",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "小明買了3支筆和2本筆記本共花了150元,一本筆記本比一支筆貴25元,請問筆一支多少錢?要列出過程",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我的程式跑出 IndexError: list index out of range\n\narr = [3, 5, 7]\nfor i in range(len(arr)+1):\n    print(arr[i])\n\n為什麼?要怎麼改",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我把這篇新聞摘要成三點重點:\n\n行政院今日通過「國家淨零排放推動方案」修正草案,預計於明年起分階段實施碳費徵收。根據草案內容,年排放量超過兩萬五千公噸的企業將優先納入徵收對象,初期費率暫定每公噸三百元,並將依據產業別與減量成效給予優惠費率。環境部表示,碳費收入將專款專用,主要用於補助中小企業進行節能設備汰換、發展再生能源以及推動低碳運輸。工商團體對此看法不一,部分業者認為費率過低無法產生實質減碳誘因,也有業者擔心增加營運成本,削弱國際競爭力。學者則指出,碳費制度能否成功,關鍵在於排放數據的盤查與查核是否確實,並建議政府應同步建立透明的資訊揭露平台。環境部預計年底前完成相關子法的預告程序,並將舉辦多場公聽會蒐集各界意見。此外,草案也規劃了自願減量專案機制,企業若能提出經認可的減量計畫,將可抵換部分碳費。",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我列一個搬家前一週的待辦清單,我是租屋族,一個人住",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下為什麼央行升息會讓房價降溫?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "寫一個 SQL 查詢:找出每個部門薪水最高的員工,表是 employees(id, name, dept_id, salary),同薪的都要列出來",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一篇 IG 貼文文案,宣傳我們新開的早午餐店,要有三個 hashtag、提到週末限定的舒芙蕾鬆餅、不要超過 150 字",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "什麼是區塊鏈?它是怎麼做到資料不能竄改的?請詳細一點說明原理",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我想三個月內從完全不跑步到可以跑 5K,幫我排一個每週訓練計畫",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Docker 跟 VM 差在哪?什麼情況用哪個?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我把這段 JavaScript 改成用 async/await,並加上錯誤處理:\nfetch(url).then(r=>r.json()).then(d=>console.log(d)).catch(e=>console.error(e))",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下 git rebase 跟 merge 的差別,實務上什麼時候該用哪個",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "一個水池,甲管 6 小時注滿,乙管 4 小時注滿,丙管 12 小時可以放完,三管齊開幾小時注滿?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我想申請日本打工度假,整個流程大概是什麼?需要準備哪些文件",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "請說明 TCP 為什麼是三次握手而不是兩次",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "寫一個 bash 腳本,把資料夾裡所有 .jpg 改名成 拍攝日期_流水號.jpg",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一份給新進工讀生的工作注意事項,咖啡店用的,大概十條,包含衛生、收銀、開關店",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "為什麼飛機可以飛起來?請用高中生聽得懂的方式解釋",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "寫一個正則表達式驗證台灣手機號碼(09 開頭、共 10 碼,可能中間有 - ),並解釋每個部分",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我寫一封面試後的感謝信給面試官,我面的是行銷企劃,面試中有聊到短影音策略,想再補充一個想法",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "我的 React 一直無限迴圈:\nuseEffect(() => { setCount(count + 1) }, [count])\n要怎麼改?為什麼會這樣",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "解釋一下複利,然後幫我算每月存 5000、年報酬 6%、存 20 年大概會有多少",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "勞保老年年金一次領跟月領差在哪?各適合什麼樣的人",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "用 Python 寫一個簡單的猜數字遊戲,要限制次數、提示太大太小,還要能重玩",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "幫我比較一下 iPhone 16 跟 Pixel 9 的拍照、續航、系統更新年限,我主要拍小孩",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "設計一個支援百萬同時在線的即時聊天系統,要包含訊息順序保證、離線訊息、已讀回執,請說明整體架構與資料庫選型",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "用 C++ 實作一個執行緒安全的 LRU cache,要支援每個 key 的 TTL 過期,並分析時間複雜度",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的 Redis 每天凌晨三點延遲飆到兩秒,其他時間都正常,CPU 也不高,可能是什麼原因?要怎麼一步步查?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "證明:任意 n 個整數中,一定存在若干個(至少一個)數的和是 n 的倍數",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們公司 15 人,要在 6 個月內導入 ERP,預算 300 萬,請幫我規劃專案時程、里程碑、人力分配、主要風險與應對方式",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我在台北租屋,房東沒經過我同意就自己開門進來,現在退租又說我弄壞地板要扣押金,但當初入住時沒有做點交紀錄。我該怎麼主張權利?有哪些相關法條可以用?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我爸 68 歲,有糖尿病和高血壓,在吃 metformin 跟 amlodipine,最近腳踝水腫、晚上躺平會喘,骨科醫生又開了 NSAID 止痛,這樣的組合有沒有問題?要注意什麼?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我 35 歲,年收 120 萬,存款 200 萬,房貸還有 800 萬、剩 25 年、利率 2.1%,想問該提前還款還是拿去買 0050?請考慮稅、流動性和風險幫我分析",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼我的 Go 服務記憶體一直漲,但 pprof heap 看起來很正常?跑在 k8s 上,大概三四天就被 OOMKilled",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "用 Rust 實作一個紅黑樹的插入與刪除,不能用 unsafe",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們電商在雙 11 時資料庫連線池爆掉,MySQL 一主兩從、讀寫分離,而且庫存扣減偶爾會超賣。請提出完整的改善方案",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "證明 √2 + √3 是無理數",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "設計一個多租戶 SaaS 的權限系統(RBAC + ABAC),要支援自訂角色、資料列層級權限,並說明在 PostgreSQL 上怎麼落地",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "分析台積電赴美設廠對台灣半導體供應鏈、人才流動與地緣政治的影響,至少從五個面向討論,最後提出政策建議",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我的碩論題目是用圖神經網路預測都市交通流量,幫我規劃研究架構、文獻回顧方向、實驗設計與評估指標",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "公司打算用 LLM 做客服,每天大約 5 萬通對話,要求回應 2 秒內、客戶資料不能出境,請比較自建模型跟雲端 API 方案的成本、架構與風險",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Kafka consumer group 一直 rebalance,每次都卡好幾分鐘,log 顯示 \"member consumer-3 has failed, removing it from the group\"。max.poll.interval.ms 是預設值,一筆訊息處理大概 3 秒,max.poll.records=500。該怎麼辦?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為什麼 P≠NP 這麼難證明?請說明目前已知的幾個障礙(relativization、natural proofs、algebrization)各是什麼意思、擋住了哪類證明",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "公司被前員工告違法解僱,他是試用期滿前三天被通知不續用,理由是績效不佳,但我們沒有書面考核紀錄。我們勝算多大?需要準備什麼?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "用 Python 寫一個四則運算解析器,要處理括號、運算優先順序、一元負號和小數,不能用 eval,並附上測試",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "設計一個跨多個 region 的分散式限流器,允許短暫超額,但全域誤差要控制在 5% 以內",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的 iOS app 從 iOS 17 之後,偶爾在背景被系統殺掉、使用者再打開時會白屏,只有部分使用者遇到,crash log 也沒東西,要怎麼排查?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "一個袋子裡有 3 顆紅球、5 顆藍球,每次抽一顆不放回,直到抽到第二顆紅球為止。求抽球次數的期望值與變異數,寫出完整推導",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我做一份咖啡店創業計畫:地點台中、預算 250 萬,要包括選址分析、損益兩平點、前 12 個月現金流預估、主要風險",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "外商公司給我 RSU 跟 ESPP,我是台灣稅務居民,賣股時要怎麼報稅?海外所得跟最低稅負制怎麼算?幫我試算:年薪 300 萬、今年 RSU 賣出 80 萬",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "證明連續函數在閉區間上一定取得最大值,盡量不要跳步",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "PyTorch 訓練到第 3 個 epoch loss 突然變 NaN,有開 AMP 混合精度、AdamW、lr 3e-4、batch 256,前兩個 epoch 都很正常,可能原因跟排查順序?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的單體 Django 系統要拆成微服務,目前有會員、訂單、金流、物流四個模組,共用一個 PostgreSQL,團隊 6 人,而且不能停機。請給遷移策略與時程",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Raft 為什麼不能只靠多數派複製就直接提交上一任 term 的 log?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "跨洲多機房要怎麼同時做到強一致又低延遲?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我媽確診乳癌第二期、HER2 陽性,醫生建議先化療再手術,但也有人說先開刀比較好。這兩種順序的利弊、副作用和預後差異是什麼?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我寫一份完整的資安事件應變計畫,公司 200 人,有 AWS 和地端 AD,要能對應 ISO 27001 的要求",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "PostgreSQL 某個查詢一夕之間從 50ms 變 8 秒,EXPLAIN 顯示改走 seq scan,資料量沒什麼變,昨天剛做完 major version upgrade",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我實作一個支援前綴搜尋和模糊比對(編輯距離 ≤1)的自動完成,資料是 50 萬筆中文商品名,記憶體要在 200MB 內",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "我們的 Elasticsearch 叢集每次 full GC 就有節點被踢出,heap 31GB、shard 數 4000 多、每天 ingest 2TB 日誌,幫我找出根因並規劃調整方案,不能影響白天查詢",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "為何 1+2+3+… 會跟 -1/12 扯上關係?請嚴謹說明解析延拓跟正則化,不要只講物理直覺",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "謝啦👍",
+  "previous": "幫我設計一個支援百萬同時在線的即時聊天系統,要包含訊息順序保證、離線訊息、已讀回執,說明架構與資料庫選型",
+  "label": "simple"
+ },
+ {
+  "text": "翻成日文",
+  "previous": "幫我寫一封請假信給主管,說我下週三要去看牙醫,請假半天",
+  "label": "simple"
+ },
+ {
+  "text": "喔喔了解~",
+  "previous": "什麼是 RAG?",
+  "label": "simple"
+ },
+ {
+  "text": "短一點",
+  "previous": "幫我寫一個公司尾牙的開場白,輕鬆幽默",
+  "label": "simple"
+ },
+ {
+  "text": "那高雄呢?",
+  "previous": "推薦台南必吃的小吃",
+  "label": "simple"
+ },
+ {
+  "text": "讚讚 太神了 🙌",
+  "previous": "證明:任意 n 個整數中,一定存在若干個數的和是 n 的倍數",
+  "label": "simple"
+ },
+ {
+  "text": "再給我5個",
+  "previous": "幫我取 5 個寵物美容店的名字",
+  "label": "simple"
+ },
+ {
+  "text": "可以舉個例子說明 Q K V 是怎麼算的嗎",
+  "previous": "什麼是 Transformer 的 attention?",
+  "label": "moderate"
+ },
+ {
+  "text": "再加上錯誤處理,還有跳過空白行",
+  "previous": "用 Python 寫一個讀 CSV 檔然後算每欄平均的函式",
+  "label": "moderate"
+ },
+ {
+  "text": "那它的流程實際上是怎麼跑的?",
+  "previous": "OAuth 是什麼?",
+  "label": "moderate"
+ },
+ {
+  "text": "手沖的步驟詳細列給我,包含水溫跟粉水比",
+  "previous": "在家怎麼泡出好喝的咖啡?",
+  "label": "moderate"
+ },
+ {
+  "text": "再詳細一點",
+  "previous": "設計一個支援百萬同時在線的即時聊天系統,要包含訊息順序保證、離線訊息、已讀回執,請說明整體架構與資料庫選型",
+  "label": "complex"
+ },
+ {
+  "text": "改了還是一樣,而且現在還出現重複消費",
+  "previous": "Kafka consumer group 一直 rebalance,每次都卡好幾分鐘,max.poll.interval.ms 預設,一筆處理 3 秒,max.poll.records=500,怎麼辦?",
+  "label": "complex"
+ },
+ {
+  "text": "預算砍到 180 萬的話要怎麼調整?",
+  "previous": "我們公司 15 人,要在 6 個月內導入 ERP,預算 300 萬,請幫我規劃專案時程、里程碑、風險與應對",
+  "label": "complex"
+ },
+ {
+  "text": "如果利率升到 3% 呢?重算一次",
+  "previous": "我 35 歲,年收 120 萬,存款 200 萬,房貸 800 萬剩 25 年、利率 2.1%,該提前還款還是買 0050?幫我分析",
+  "label": "complex"
+ },
+ {
+  "text": "hey there! how's it going",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "thx a ton, that fixed it 🙏",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the capital of Australia? I always forget lol",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "what is a monad? one-line definition pls",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Define \"eventual consistency\" in one sentence.",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Can you design a short birthday message for my coworker Sarah? she loves hiking 🥾",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Quick compare: is a Costco or Sam's Club membership cheaper per year?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Translate to Spanish: \"The meeting has been moved to Thursday at 3pm.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "fix typos pls: \"Their going to the libary tommorow becuase they need too study for there exam.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Can you proofread this? Just fix grammar/spelling, don't change the meaning or tone:\n\nHi team, I wanted to give everyone a quick update on the office move. As you all know, we was originally planning to move on the 15th, but due to some delays with the contractors the date has been pushed back to the 29th. Please make sure all you're personal items are packed by the 27th, and label every box with your name and new desk number. IT will be handling the monitors and docking stations, so you dont need to pack those. If you have any large items like plants or chairs that you'd like to bring, let Maria know by friday so she can arrange extra space on the truck. Parking at the new building will be free for the first month, after that we'll be sending out details on the permit system. Thanks for everyone's patience and flexibility, I know this has been a long process!",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Give me a catchy slogan for a dog-walking business",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "tell me a joke about databases",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What does \"optimize\" mean in SEO? short answer",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What's the formula for compound interest?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Help me plan a name for my sourdough starter 😂",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "what's a hash table",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is the Riemann hypothesis, in plain words? no math needed",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Rewrite this to sound more confident: \"I think maybe I could possibly help with the project if that's ok.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Summarize in one line: \"The city council voted 7-2 to approve the new bike lane on Main St. Construction begins in March. Some business owners worry about losing parking.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "is it affect or effect in \"the weather will ___ our plans\"?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "good night!! 😴",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "what's the strategy pattern? one sentence",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Analyze this real quick: is \"Me and him went to the store\" grammatically correct?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Which is cheaper per ounce: 12oz for $3.49 or 18oz for $4.99?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "one-liner in JS to remove duplicates from an array?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Excel formula to count cells that contain \"yes\"?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Please translate this product description into Traditional Chinese (Taiwan):\n\nMeet the AeroBrew Travel Mug — your perfect companion for busy mornings and long commutes. Crafted from double-walled stainless steel, it keeps drinks hot for up to 8 hours and cold for up to 24. The leak-proof lid locks with a simple twist, so you can toss it in your bag without worry. Its slim design fits most car cup holders, and the textured grip makes it easy to hold even with gloves on. Available in five colors: Midnight Black, Ocean Blue, Sage Green, Blush Pink, and Arctic White. Dishwasher safe, BPA-free, and backed by a lifetime warranty.",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "suggest 3 names for a fantasy tavern",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "ok cool 👌",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Make this text friendlier: \"Need the report by 5. Don't be late.\"",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What is a system prompt?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "what is quantum supremacy? brief pls",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Wish me luck on my exam tomorrow 🍀",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "brown rice or white rice, which is healthier? quick answer",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "What does Big-O notation mean?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Can you implement a quick tagline for our bakery's fall menu? something cozy 🍂",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "what's 15% tip on $86.40",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Define homomorphic encryption in a sentence.",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "Can you explain how garbage collection works in Java, like the generational thing, at a level a junior dev would get?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a Python function that takes a list of meeting intervals [(start, end), ...] and merges the overlapping ones.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Postgres vs MongoDB for a small recipe app with user comments and ratings — pros and cons?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a professional email to a client explaining a 2-week delay due to a supplier issue. Offer a revised timeline and a 10% discount on the next invoice. Keep it under 200 words.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "A train leaves at 2pm going 60 mph, another leaves the same station at 3pm going 80 mph in the same direction. When does the second catch up? show steps",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "my code prints None, why?\n\ndef add(a, b):\n    print(a + b)\n\nresult = add(2, 3)\nprint(result)",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Summarize this into 5 bullet points:\n\nRemote work has reshaped how companies think about office space. After the pandemic, many firms adopted hybrid models, asking employees to come in two or three days a week. This shift has left many downtown office buildings with occupancy rates well below pre-2020 levels. Landlords have responded by offering shorter leases, more flexible floor plans, and amenities like gyms and rooftop lounges to lure tenants back. Meanwhile, some cities are exploring converting vacant offices into residential units, though the process is expensive and often complicated by building layouts and zoning rules. Small businesses that relied on office workers, such as lunch spots and dry cleaners, have struggled, while suburban areas have seen a rise in foot traffic. Economists are divided on whether this is a permanent change or a slow transition that will eventually stabilize. Some argue that as companies tighten return-to-office mandates, demand will partially recover. Others point out that younger workers increasingly expect flexibility, and companies that refuse may lose talent. Either way, the long-term impact on city budgets, which often depend on commercial property taxes, remains a major concern for local governments.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Make a packing checklist for a 5-day camping trip in the Rockies in September",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "How does a VPN actually protect my data? go a little deeper than 'it encrypts stuff'",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "bash command to find the 10 biggest files under /var and print human-readable sizes — and explain the flags",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "explain why quicksort is O(n log n) on average but O(n^2) worst case",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "REST vs GraphQL, when would I pick each?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Help me write a LinkedIn post announcing I'm leaving my job after 6 years. Thank the team, mention I'm starting an ML master's in Edinburgh, and please make it not cringey.",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "how do vaccines train the immune system? explain mRNA vs traditional ones",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "SQL to get monthly active users per month in 2025 from events(user_id, event_time)",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "why won't my items center vertically?\n.container { display: flex; justify-content: center; }",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Create a simple weekly meal prep plan for a vegetarian, around 2000 kcal/day, with a grocery list",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Why does the moon look so much bigger near the horizon?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Write a regex for validating emails and walk me through each part",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "I have $3,000 in credit card debt at 24% APR and $1,200 a month I can spare. How long to pay it off and how much interest total? step by step",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Can you write a Python script that reads a folder of .txt files and outputs a word frequency table to CSV, ignoring stopwords?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "Design a URL shortener that handles 100k writes/sec and 1M reads/sec, with custom aliases, click analytics, and expiration. Cover data model, ID generation, sharding, caching, and failure modes.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement a skip list in Java with insert, delete, search and range queries; analyze expected complexity.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Our Node.js service has p99 latency spikes every ~90 seconds. Heap looks fine but event loop lag spikes at the same time. It runs in Docker with a 1 CPU limit. What could be the root cause and how do I verify each hypothesis?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Prove that every planar graph is 5-colorable.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Prove there are infinitely many primes of the form 4k+3.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "I'm launching a B2B SaaS in 9 months with a $400k seed round. Build me a project plan: hiring order, milestones, monthly burn, key risks and contingencies.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "My landlord in Los Angeles wants to evict me for an 'owner move-in'. Unit is rent-controlled, I've lived here 8 years and I'm 67. What are my rights and what relocation assistance am I owed?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "I'm 42, $310k in 401k, $90k brokerage, $45k HSA, married filing jointly, $220k household income. Should we do backdoor Roth, mega backdoor Roth, or pay down our 6.5% mortgage faster? Walk through the tradeoffs with numbers.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "why does 2PC block forever when the coordinator dies after prepare?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "how do you get exactly-once between Kafka and Postgres",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement a lock-free MPMC bounded queue in C++ and justify every memory_order you use.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design the data model and consistency approach for a Google Docs-style collaborative editor. CRDT vs OT, offline edits, presence, and how you'd handle 200 concurrent editors on one doc.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Our churn model's AUC dropped from 0.91 to 0.78 in prod, but offline eval on last week's data still shows 0.90. Features come from Spark batch jobs plus an online Redis store. Help me debug this.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a multi-part analysis of how remote work affects commercial real estate, municipal tax bases, and public transit funding through 2030. Include three scenarios and indicators to watch.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "My wife takes lithium for bipolar disorder and her GP just prescribed lisinopril and also told her to take ibuprofen for back pain. Should we be worried? What exactly should we ask the doctor?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Prove the halting problem is undecidable, then show how Rice's theorem follows from it.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement Dijkstra with a binary heap supporting decrease-key from scratch in Python (no heapq), plus tests including a check that rejects negative edges.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "terraform apply keeps destroying and recreating our RDS instance every run even with zero changes. plan says 'forces replacement' on parameter_group_name which is identical in state and config. aws provider 5.x. why??",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Write a business plan for converting a 40-acre farm into an agritourism venue: permits, capex, revenue streams, 3-year P&L, and a risk register.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Design a feature store that supports point-in-time-correct joins for training and <10ms p99 online serving for 50k QPS.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Our Postgres read replica falls hours behind during the nightly batch even though network is fine. wal_level=logical, and there's one replication slot that's been idle for weeks. What's going on and how do I fix it without downtime?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "why does the sum of 1/p over primes diverge? rigorous pls",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "We have 3 pricing tiers, 2k free users, 40 paying teams, and 6% monthly churn. Design a new pricing strategy and model the revenue impact over 12 months, including the risk of downgrades.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "what breaks if you use wall-clock timestamps for last-write-wins across regions?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "Implement a B+ tree with bulk loading and range scans in Go, and explain how you'd make it crash-safe on disk.",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "thanks, super helpful!",
+  "previous": "Design a URL shortener that handles 100k writes/sec and 1M reads/sec with analytics and expiration.",
+  "label": "simple"
+ },
+ {
+  "text": "translate it to French",
+  "previous": "write me a short note to my neighbor asking them to water my plants while I'm away this weekend",
+  "label": "simple"
+ },
+ {
+  "text": "got it 👍",
+  "previous": "what's the difference between TCP and UDP?",
+  "label": "simple"
+ },
+ {
+  "text": "more puns pls",
+  "previous": "give me 5 names for a podcast about gardening",
+  "label": "simple"
+ },
+ {
+  "text": "another one",
+  "previous": "Write a haiku about autumn",
+  "label": "simple"
+ },
+ {
+  "text": "can u show an example where it's actually useful, like a counter or something",
+  "previous": "What's a closure in JavaScript?",
+  "label": "moderate"
+ },
+ {
+  "text": "now make it ignore punctuation and case, and add a few tests",
+  "previous": "write a python function to check if a string is a palindrome",
+  "label": "moderate"
+ },
+ {
+  "text": "ok but why does raising interest rates bring it down?",
+  "previous": "what's inflation",
+  "label": "moderate"
+ },
+ {
+  "text": "go deeper on the sharding and hot-key part",
+  "previous": "Design a URL shortener that handles 100k writes/sec and 1M reads/sec, with custom aliases, analytics, and expiration.",
+  "label": "complex"
+ },
+ {
+  "text": "this has an ABA problem, fix it",
+  "previous": "Implement a lock-free MPMC bounded queue in C++ and justify every memory_order you use.",
+  "label": "complex"
+ },
+ {
+  "text": "tried that, GC isn't it. we also see TCP retransmits at the same moments",
+  "previous": "Our Node.js service has p99 latency spikes every ~90 seconds; event loop lag spikes at the same time. Docker, 1 CPU limit. Root cause?",
+  "label": "complex"
+ },
+ {
+  "text": "what if we also have a kid starting college in 5 years? redo it",
+  "previous": "I'm 42, $310k in 401k, $90k brokerage, married filing jointly, $220k income. Backdoor Roth, mega backdoor, or pay down our 6.5% mortgage? Walk through tradeoffs with numbers.",
+  "label": "complex"
+ },
+ {
+  "text": "幫我把這句翻成英文:「我下週要 take a day off 去看牙醫」",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "謝謝 bro 超有用 🔥🔥",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "deadline 中文要怎麼講比較自然?",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "幫我想一個 team building 活動的名字,fun 一點的",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "這個 endpoint 是不是拼錯了 /api/v1/useres",
+  "previous": null,
+  "label": "simple"
+ },
+ {
+  "text": "OK 懂了 thanks!",
+  "previous": "Explain how Raft leader election works, including what happens on split votes",
+  "label": "simple"
+ },
+ {
+  "text": "我想用 Python 寫個 script 每天把 Google Sheet 的資料 export 成 CSV 存到 Drive,how should I start?",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "可以 explain 一下 JWT 跟 session-based auth 的 pros and cons 嗎?我們是 SPA + mobile app",
+  "previous": null,
+  "label": "moderate"
+ },
+ {
+  "text": "可以加上 pagination 嗎 抓前五頁就好",
+  "previous": "幫我寫一個 Python 爬蟲抓 PTT 八卦版的文章標題",
+  "label": "moderate"
+ },
+ {
+  "text": "我們的 microservices 在 k8s 上 random 出現 502,ingress 是 nginx,只有在 rolling update 的時候發生,readiness probe 有設,how to fix?",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "幫我 design 一個 multi-region active-active 的 payment system,要有 idempotency 跟 reconciliation,還要符合 PCI DSS",
+  "previous": null,
+  "label": "complex"
+ },
+ {
+  "text": "那 reconciliation 那塊 detail 一點,尤其是跨 region 對帳不一致的時候",
+  "previous": "幫我 design 一個 multi-region active-active 的 payment system,要有 idempotency 跟 reconciliation",
+  "label": "complex"
+ }
+]
